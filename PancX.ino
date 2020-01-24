@@ -70,8 +70,17 @@ void loop()
     Serial.print(recvChar);
     if (recvChar == '1')
     {
+      //tests de la connexion a l'aide de leds
       LEDON();
       Bluetooth.write("Led ON");
+    }
+    else if (recvChar.toLowerCase() == 'getTemp')
+    {
+      double valeurAnalog = analogRead(PIN_NTC);
+      temp = Thermister(valeurAanalog);
+      Bluetooth.write(temp);
+      //On fait clignoter la led pour indiquer qu'on transfere de l'energie
+      makeLedShine();
     }
     else if (recvChar == '0')
     {
@@ -84,6 +93,22 @@ void loop()
 TimedAction numberThread = TimedAction(<Delai>,ouvrirValve);
 TimedAction textThread = TimedAction(<Delai>,fermerValve);
 **/
+
+void makeLedShine()
+{
+  int i = 0;
+  while(i<=5)
+  {
+    LEDON();
+    delay(400);
+    LEDOFF();
+    delay(400);
+    i=i+1;
+  }
+  LEDON();
+}
+  
+
 
 double Thermister(float RawADC) {
   float R = R0/((1023/RawADC)-1);
