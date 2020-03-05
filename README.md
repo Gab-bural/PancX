@@ -1,16 +1,18 @@
-# PancX
+<h1> PancX </h1>
 Scripts Arduino projet PancX
 
-Application bluetooth:
+<h2>Application bluetooth:</h2>
 
-https://developer.android.com/guide/topics/connectivity/bluetooth#java
+<h3> Doc que l'on peut utiliser:
+<a href='https://developer.android.com/guide/topics/connectivity/bluetooth#java'>Documentation Bluetooth Java</a>
+</h3>
 
-2 Activites
 
-Boutton allumer le bouton:
 
-DOC:
+Bouton allumer le bouton:
 
+<h3>DOC:</h3>
+<p>
 Commands:
   pancx <suffixe> <suffixe> [...]
   pancx -s --start                : Lance le pancX
@@ -19,5 +21,6 @@ Commands:
   pancx -gt --getTemp             : Retourne la temperature
   
   
-  Ces commandes peuvent etre utilisées a l'aide d'une application de traitement bluetooth ou avec cette application a l'aide de bouttons.
+  Ces commandes peuvent etre utilisées a l'aide d'une application de traitement bluetooth ou avec cette application a l'aide de boutons.
   Liste non exhaustive
+</p>
