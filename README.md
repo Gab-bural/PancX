@@ -15,12 +15,12 @@ Bouton allumer le bouton:
 <p>
 Commands:
   pancx <suffixe> <suffixe> [...]
-  pancx -s --start                : Lance le pancX
-  pancx -shutd --shutdown         : Stoppe le pancX
-  pancx -u --usage                : Deploit ce menu
-  pancx -gt --getTemp             : Retourne la temperature
+  pancx -s --start                : Lance le pancX\n
+  pancx -shutd --shutdown         : Stoppe le pancX\n
+  pancx -u --usage                : Deploit ce menu\n
+  pancx -gt --getTemp             : Retourne la temperature\n\n\n
   
   
-  Ces commandes peuvent etre utilisées a l'aide d'une application de traitement bluetooth ou avec cette application a l'aide de boutons.
+  Ces commandes peuvent etre utilisées a l'aide d'une application de traitement bluetooth ou avec cette application a l'aide de boutons.\n
   Liste non exhaustive
 </p>
