@@ -5,8 +5,8 @@ Scripts Arduino projet PancX
 
 <h3> Doc que l'on peut utiliser:</h3>
 
-<a href='https://developer.android.com/guide/topics/connectivity/bluetooth#java'>Documentation Bluetooth Java</a>
-<a href='https://github.com/OmarAflak/Bluetooth-Library'>API Bluetooth pour android studio</a>
+<h3><a href='https://developer.android.com/guide/topics/connectivity/bluetooth#java'>Documentation Bluetooth Java</a></h3>
+<h3><a href='https://github.com/OmarAflak/Bluetooth-Library'>API Bluetooth pour android studio</a></h3>
 
 
 
